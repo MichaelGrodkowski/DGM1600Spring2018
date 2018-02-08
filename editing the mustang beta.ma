@@ -1,6 +1,10 @@
 //Maya ASCII 2018 scene
 //Name: editing the mustang beta.ma
+<<<<<<< Updated upstream
 //Last modified: Wed, Jan 31, 2018 03:04:01 PM
+=======
+//Last modified: Tue, Jan 30, 2018 02:20:53 PM
+>>>>>>> Stashed changes
 //Codeset: 1252
 requires maya "2018";
 requires "stereoCamera" "10.0";
@@ -15,8 +19,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "43CB77A2-47C0-FD98-6DBC-5AB4BCB90734";
 	setAttr ".v" no;
+<<<<<<< Updated upstream
 	setAttr ".t" -type "double3" -76.804522581221278 109.93669184660564 217.99788988894969 ;
 	setAttr ".r" -type "double3" -386.13835418571898 -27019.799999996205 8.4510035339620811e-16 ;
+=======
+	setAttr ".t" -type "double3" 30.033007861225599 25.921869134191343 -17.492963174248953 ;
+	setAttr ".r" -type "double3" -399.33835512111892 -23276.200000001794 0 ;
+>>>>>>> Stashed changes
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "BE476BE6-4435-E221-997F-75BB8FF021D4";
 	setAttr -k off ".v" no;
