@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: Completing the 2ndrobot.ma
-//Last modified: Fri, Mar 02, 2018 05:03:00 PM
+//Last modified: Fri, Mar 02, 2018 05:04:50 PM
 //Codeset: 1252
 requires maya "2018";
 requires "stereoCamera" "10.0";
@@ -13,13 +13,13 @@ fileInfo "osv" "Microsoft Windows 8 Home Premium Edition, 64-bit  (Build 9200)\n
 fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "620874A5-4BC8-36C3-C8F3-9DBC90DE510F";
-	setAttr ".t" -type "double3" -6.6673546128490431 5.8645839511541338 31.899793550199419 ;
-	setAttr ".r" -type "double3" -8.1383519590025628 -18370.03156625203 1.0093544141579587e-16 ;
+	setAttr ".t" -type "double3" -20.535966797648395 19.233709984862902 59.925621312147747 ;
+	setAttr ".r" -type "double3" -15.938351959002862 -18378.031566252012 -4.1810404556581718e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "D49E4E2F-4668-9B84-6D2A-C49352BEDC51";
 	setAttr -k off ".v";
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 32.752276434410724;
+	setAttr ".coi" 65.569827017784007;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
